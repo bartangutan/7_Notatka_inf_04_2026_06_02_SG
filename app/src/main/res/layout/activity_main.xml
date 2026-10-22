@@ -16,6 +16,7 @@
         android:text="Notatki" />
 
     <ListView
+        android:id="@+id/listView1"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
@@ -25,16 +26,16 @@
         android:layout_height="wrap_content"
         android:textColor="#0000CD"
         android:textSize="30sp"
-        android:text="TextView" />
+        android:text="Dodanie notatki" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Tytuł notatki" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/editTextTytul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -45,10 +46,10 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Treść notatki" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/editTextTresc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -56,10 +57,10 @@
          />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonDodaj"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#0000CD"
-        android:text="Button" />
+        android:text="DODAJ" />
 
 </LinearLayout>
